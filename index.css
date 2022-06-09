@@ -1,0 +1,67 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/27/20/55/arm-1284248_960_720.jpg);
+    background-repeat:;
+    background-size: cover;
+    
+    margin: 0 ;
+    padding: 0;
+    background-color: #9fa8da ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 2rem;
+    
+}
+input{
+    padding-left: 10px;
+    border-radius: 10px;
+    height:  50px;
+    width: 450px;
+    font-size: 1.5rem;
+    
+}
+button{
+    height: 55px;
+    width: 55px;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+    font-weight: 900;
+}
+.contentDiv{
+    padding-left: 10px;
+    width: 520px;
+    height: 700px;
+    background-color: white;
+    margin-top: 10px;
+    font-size: 30px ;
+    border: 2px solid;
+    border-radius: 30px;
+}
+.deleteButon{
+    height: 30px;
+    width: 50px;
+    background-color: red ;
+    display: inline-block;
+    color: white;
+    margin-left: 10px;
+    padding-left: 5px;
+    cursor:pointer;
+    text-align: center;
+}
+.finishButon{
+    height: 30px;
+    width: 50px;
+    background-color: yellowgreen ;
+    display: inline-block;
+    color: white;
+    margin-left: 10px;
+    padding-left: 5px;
+    cursor:pointer;
+    text-align: center;
+}
+.liner{
+    text-decoration: line-through;
+}
